@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizi</title>
+    <script src="java2.js"></script> 
+    
+    
+</head>
+<body>
+    //-- esercizio 1 del 14.11.2023--//
+
+    <script>
+
+
+        let quantitaordine = parseInt(prompt ("inserisci la quantita da ordinare"));
+
+        let quantitastock = 30
+        let quantitatotale = quantitastock - quantitaordine
+
+        if (quantitaordine <= quantitastock) {
+            console.log("unita ordinate:" + quantitaordine );
+            console.log ("ordine efetuato");
+        }
+
+                
+            else {
+                console.log("unita non disponibile");
+                console.log ("ordine non efetuato");
+            }
+        console.log("unita disponibile :" + quantitatotale);
+
+
+
+
+       
+    </script>
+
+    //-- esercizio 2 del 14.11.2023--//
+
+    <script>
+         voto = parseInt(prompt("inserisci il voto:"))
+        if ( voto <= 18 ) {
+        alert ( "Insufficiente")
+        }
+        else if (( voto >= 18) && ( voto < 21 )) {
+        alert ( "Sufficiente")
+        }
+        if (( voto >= 21) && ( voto < 24 )) {
+        alert ( "Buono")
+        }
+        else if (( voto >= 24) && ( voto < 27 )) {
+        alert ( "Distinto")
+        }
+        if (( voto >= 27) && ( voto <= 29 )) {
+        alert ( "Ottimo")
+        }
+        else if ( voto == 30) {
+        alert ( "Eccellente")
+        }
+           
+
+    </script>
+   
+    
+</body>
+</html>
